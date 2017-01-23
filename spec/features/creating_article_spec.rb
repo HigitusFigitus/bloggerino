@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.feature "Creating articles" do
   scenario "User creates a new article" do
     visit "/"
-    clink_link "New Article"
+    click_link "New Article"
     fill_in "Title", with: "Creating a blog"
     fill_in "Body", with: "Lorem Ipsum"
     click_button "Create Article"
