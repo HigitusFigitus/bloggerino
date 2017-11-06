@@ -1,1 +1,1 @@
-bloggerino - in progress
+blog - in progress
